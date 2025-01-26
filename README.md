@@ -1,1 +1,1 @@
-Cooming Soon!
+Play guessing numbers with AI
