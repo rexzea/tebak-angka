@@ -97,7 +97,7 @@ class RexzeaGuessNumber:
             print(f"AI menebak: {ai_guess}")
             
             while True:
-                feedback = input("Tekan 'B' jika lebih besar, 'K' jika lebih kecil, 'B' jika benar: ").lower()
+                feedback = input("Tekan 'B' jika lebih besar, 'K' jika lebih kecil, 'Y' jika benar: ").lower()
                 
                 if feedback == 'b':
                     left = ai_guess + 1
@@ -107,13 +107,11 @@ class RexzeaGuessNumber:
                     right = ai_guess - 1
                     possible_numbers = {n for n in possible_numbers if n < ai_guess}
                     break
-                elif feedback == 'b':
+                elif feedback == 'y':
                     print(f"AI berhasil menebak di percobaan ke-{self.attempts}!")
                     return
                 else:
                     print("Input tidak valid. Gunakan 'B', 'K', atau 'B'.")
-            
-            # Update possible numbers more intelligently
             if not possible_numbers:
                 print("Terjadi kesalahan dalam input. Mohon ulangi.")
                 break
