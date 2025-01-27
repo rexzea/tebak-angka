@@ -44,7 +44,7 @@ MIT
 ## 🌈 Preview
 ```bash
 --- TEBAK ANGKA AI ---
-1. Player vs AI (Bersama-sama Menebak)
+1. Player vs AI (Bersama sama Menebak)
 2. Player Menebak Angka AI
 3. AI Menebak Angka Player
 4. Keluar
