@@ -52,5 +52,24 @@ Pilih mode permainan (1-4):
 ```
 
 ---
+## 📧 Contact
 
-**Selamat Bermain dan Menguji Kecerdasan AI!** 🎮🧠
+Rexzea - [Instagram](https://www.instagram.com/alzennora/profilecard/?igsh=Ym8wZHFjcWRxaWhx) - futzfarry@gmail.com
+
+
+
+Project Link: [guess-number](https://github.com/rexzea/self-driving-car)
+
+---
++62 898-8610-455
+
+<div align="center">
+
+
+![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+```
+🌟 Made with ❤️ by Rexzea 🌟
+```
+
+</div>
+
