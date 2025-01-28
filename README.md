@@ -26,7 +26,7 @@ Sebuah permainan tebak angka bersama AI yang mampu menebak angka seperti kamu. D
 ## 🚀 Cara Memulai
 ```bash
 # Clone repository
-git clone https://github.com/rexzea/guess-number.git
+git clone https://github.com/rexzea/tebak-angka.git
 
 # Masuk direktori
 cd guess_number
