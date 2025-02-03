@@ -1,20 +1,20 @@
 # 🎲 Number Guessing Game 🧠
 
-## 🌟 Tentang Proyek
-Sebuah permainan tebak angka bersama AI yang mampu menebak angka seperti kamu. Dibuat dengan Python, game ini memiliki berbagai mode permainan yang seru loh!
+## 🌟 Tentang
+Sebuah permainan tebak angka bersama AI yang mampu menebak angka kamu ataupun sebaliknya. Dibuat dengan Python. btw game ini memiliki berbagai mode permainan yang seru loh!
 
 ## ✨ Fitur Utama
 - 🤖 Mode Player vs AI
-- 🧩 Mode AI Menebak Angka kamu dan sebaliknya
-- 🎯 Akurasi dan intelligens AI yang tinggi
+- 🧩 Mode AI Menebak Angka kamu, dan sebaliknya
+- 🎯 Akurasi dan intelligens AI yang bagus
 
 ## 🕹️ Mode Permainan
-### 1. Player vs Ultra-Intelligent AI
+### 1. Player vs AI
 - AI dan pemain berlomba menebak angka
 - Umpan balik real time untuk setiap tebakan
 - Algoritma AI 
 
-### 2. AI Menebak Angka Anda
+### 2. AI Menebak Angka kamu(player)
 - AI menggunakan strategi binary search
 - Tombol 'B' (lebih besar) dan 'K' (lebih kecil)
 - Mekanisme penghapusan kemungkinan
