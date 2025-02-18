@@ -77,7 +77,7 @@ class TebakAngkaApp(MDApp):
                     self.root.ids.label_hasil.theme_text_color = "Custom"
                     self.root.ids.label_hasil.text_color = (1, 0, 0, 1)  # merah
 
-
+ 
                 elif tebakan < self.angka_rahasia: # jika tebakan terlalu kecil
                     self.root.ids.label_hasil.text = "📉 Terlalu kecil!"
                     self.root.ids.label_hasil.text_color = (1, 0.5, 0, 1)  # oren
