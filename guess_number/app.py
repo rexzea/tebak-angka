@@ -1,13 +1,14 @@
-
 from kivy.lang import Builder
 from kivymd.app import MDApp
 import random
+
+
 
 KV = '''
 MDBoxLayout:
     orientation: 'vertical'
     padding: 20
-    spacing: 20
+    spacing: 10
 
     MDLabel:
         text: "🎮 Game Tebak Angka (1-10)"
@@ -49,6 +50,8 @@ MDBoxLayout:
         md_bg_color: 1, 0, 0, 1  # Warna merah
 '''
 
+
+
 class TebakAngkaApp(MDApp):
     def build(self):
         self.angka_rahasia = random.randint(1, 10)
@@ -59,18 +62,23 @@ class TebakAngkaApp(MDApp):
         try:
             tebakan = int(self.root.ids.input_tebakan.text)
 
-            if tebakan == self.angka_rahasia:
+            if tebakan == self.angka_rahasia: # jika tebakan benar
                 self.root.ids.label_hasil.text = "🎉 Benar! Kamu menang!"
                 self.root.ids.label_hasil.theme_text_color = "Custom"
                 self.root.ids.label_hasil.text_color = (0, 1, 0, 1)  # hijau
-            else:
+
+
+            else: # jika tebakan salah
                 self.kesempatan -= 1
                 self.root.ids.label_kesempatan.text = f"Kesempatan: {self.kesempatan}"
-                if self.kesempatan == 0:
+
+                if self.kesempatan == 0: # jika kesempatan habis
                     self.root.ids.label_hasil.text = "❌ Game Over! Jawabannya: " + str(self.angka_rahasia)
                     self.root.ids.label_hasil.theme_text_color = "Custom"
                     self.root.ids.label_hasil.text_color = (1, 0, 0, 1)  # merah
-                elif tebakan < self.angka_rahasia:
+
+
+                elif tebakan < self.angka_rahasia: # jika tebakan terlalu kecil
                     self.root.ids.label_hasil.text = "📉 Terlalu kecil!"
                     self.root.ids.label_hasil.text_color = (1, 0.5, 0, 1)  # oren
                 else:
